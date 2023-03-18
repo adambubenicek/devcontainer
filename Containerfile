@@ -2,7 +2,7 @@ FROM alpine
 
 RUN apk update
 
-RUN apk add build-base less chezmoi fish starship nnn git neovim
+RUN apk add build-base less chezmoi fish starship nnn git ripgrep neovim
 RUN chezmoi init --apply adambubenicek
 
 WORKDIR /root
