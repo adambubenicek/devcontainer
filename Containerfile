@@ -25,6 +25,7 @@ WORKDIR /root
 
 ENV LANG=en_us.UTF-8
 ENV TERM=xterm-256color
+ENV SHELL=/usr/bin/fish
 
 CMD fish
 
