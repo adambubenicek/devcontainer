@@ -19,6 +19,7 @@ RUN apk add \
   npm
 
 RUN chezmoi init --apply adambubenicek
+RUN nvim --headless "+Lazy! sync" +qa
 
 WORKDIR /root
 
